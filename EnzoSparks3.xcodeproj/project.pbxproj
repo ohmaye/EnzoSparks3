@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB353971975ED2F0027915F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB353961975ED2F0027915F /* AppDelegate.swift */; };
+		DDB353991975ED2F0027915F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDB353981975ED2F0027915F /* GameScene.sks */; };
+		DDB3539B1975ED300027915F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3539A1975ED300027915F /* GameScene.swift */; };
+		DDB3539D1975ED300027915F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3539C1975ED300027915F /* GameViewController.swift */; };
+		DDB353A01975ED300027915F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB3539E1975ED300027915F /* Main.storyboard */; };
+		DDB353A21975ED300027915F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB353A11975ED300027915F /* Images.xcassets */; };
+		DDB353AE1975ED300027915F /* EnzoSparks3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB353AD1975ED300027915F /* EnzoSparks3Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB353A81975ED300027915F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB353891975ED2F0027915F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB353901975ED2F0027915F;
+			remoteInfo = EnzoSparks3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDB353911975ED2F0027915F /* EnzoSparks3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnzoSparks3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB353951975ED2F0027915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB353961975ED2F0027915F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB353981975ED2F0027915F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DDB3539A1975ED300027915F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DDB3539C1975ED300027915F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DDB3539F1975ED300027915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB353A11975ED300027915F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDB353A71975ED300027915F /* EnzoSparks3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnzoSparks3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB353AC1975ED300027915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB353AD1975ED300027915F /* EnzoSparks3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoSparks3Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB3538E1975ED2F0027915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB353A41975ED300027915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB353881975ED2F0027915F = {
+			isa = PBXGroup;
+			children = (
+				DDB353931975ED2F0027915F /* EnzoSparks3 */,
+				DDB353AA1975ED300027915F /* EnzoSparks3Tests */,
+				DDB353921975ED2F0027915F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB353921975ED2F0027915F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB353911975ED2F0027915F /* EnzoSparks3.app */,
+				DDB353A71975ED300027915F /* EnzoSparks3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB353931975ED2F0027915F /* EnzoSparks3 */ = {
+			isa = PBXGroup;
+			children = (
+				DDB353961975ED2F0027915F /* AppDelegate.swift */,
+				DDB353981975ED2F0027915F /* GameScene.sks */,
+				DDB3539A1975ED300027915F /* GameScene.swift */,
+				DDB3539C1975ED300027915F /* GameViewController.swift */,
+				DDB3539E1975ED300027915F /* Main.storyboard */,
+				DDB353A11975ED300027915F /* Images.xcassets */,
+				DDB353941975ED2F0027915F /* Supporting Files */,
+			);
+			path = EnzoSparks3;
+			sourceTree = "<group>";
+		};
+		DDB353941975ED2F0027915F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB353951975ED2F0027915F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDB353AA1975ED300027915F /* EnzoSparks3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB353AD1975ED300027915F /* EnzoSparks3Tests.swift */,
+				DDB353AB1975ED300027915F /* Supporting Files */,
+			);
+			path = EnzoSparks3Tests;
+			sourceTree = "<group>";
+		};
+		DDB353AB1975ED300027915F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB353AC1975ED300027915F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB353901975ED2F0027915F /* EnzoSparks3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB353B11975ED300027915F /* Build configuration list for PBXNativeTarget "EnzoSparks3" */;
+			buildPhases = (
+				DDB3538D1975ED2F0027915F /* Sources */,
+				DDB3538E1975ED2F0027915F /* Frameworks */,
+				DDB3538F1975ED2F0027915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnzoSparks3;
+			productName = EnzoSparks3;
+			productReference = DDB353911975ED2F0027915F /* EnzoSparks3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDB353A61975ED300027915F /* EnzoSparks3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB353B41975ED300027915F /* Build configuration list for PBXNativeTarget "EnzoSparks3Tests" */;
+			buildPhases = (
+				DDB353A31975ED300027915F /* Sources */,
+				DDB353A41975ED300027915F /* Frameworks */,
+				DDB353A51975ED300027915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB353A91975ED300027915F /* PBXTargetDependency */,
+			);
+			name = EnzoSparks3Tests;
+			productName = EnzoSparks3Tests;
+			productReference = DDB353A71975ED300027915F /* EnzoSparks3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB353891975ED2F0027915F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Enio Ohmaye";
+				TargetAttributes = {
+					DDB353901975ED2F0027915F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DDB353A61975ED300027915F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DDB353901975ED2F0027915F;
+					};
+				};
+			};
+			buildConfigurationList = DDB3538C1975ED2F0027915F /* Build configuration list for PBXProject "EnzoSparks3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB353881975ED2F0027915F;
+			productRefGroup = DDB353921975ED2F0027915F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB353901975ED2F0027915F /* EnzoSparks3 */,
+				DDB353A61975ED300027915F /* EnzoSparks3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB3538F1975ED2F0027915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB353A21975ED300027915F /* Images.xcassets in Resources */,
+				DDB353991975ED2F0027915F /* GameScene.sks in Resources */,
+				DDB353A01975ED300027915F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB353A51975ED300027915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB3538D1975ED2F0027915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB3539B1975ED300027915F /* GameScene.swift in Sources */,
+				DDB3539D1975ED300027915F /* GameViewController.swift in Sources */,
+				DDB353971975ED2F0027915F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB353A31975ED300027915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB353AE1975ED300027915F /* EnzoSparks3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB353A91975ED300027915F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB353901975ED2F0027915F /* EnzoSparks3 */;
+			targetProxy = DDB353A81975ED300027915F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDB3539E1975ED300027915F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB3539F1975ED300027915F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB353AF1975ED300027915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB353B01975ED300027915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB353B21975ED300027915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = EnzoSparks3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB353B31975ED300027915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = EnzoSparks3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDB353B51975ED300027915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnzoSparks3.app/EnzoSparks3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnzoSparks3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DDB353B61975ED300027915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnzoSparks3.app/EnzoSparks3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnzoSparks3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB3538C1975ED2F0027915F /* Build configuration list for PBXProject "EnzoSparks3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB353AF1975ED300027915F /* Debug */,
+				DDB353B01975ED300027915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB353B11975ED300027915F /* Build configuration list for PBXNativeTarget "EnzoSparks3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB353B21975ED300027915F /* Debug */,
+				DDB353B31975ED300027915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDB353B41975ED300027915F /* Build configuration list for PBXNativeTarget "EnzoSparks3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB353B51975ED300027915F /* Debug */,
+				DDB353B61975ED300027915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB353891975ED2F0027915F /* Project object */;
+}
